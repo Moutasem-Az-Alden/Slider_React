@@ -1,0 +1,33 @@
+
+.carousel {
+    overflow: hidden;
+    width: 360px;
+    margin: 80px auto;
+    cursor: grab;
+}
+@media (min-width:991px) {
+    .carousel {
+        width: 740px;
+    }
+}
+@media (min-width:1200px) {
+    .carousel {
+        width: 1100px;
+    }
+}
+.inner-carousel {
+    display: flex;
+    width: 600px;
+    max-width: 100%;
+}
+.item {
+    min-height: 25rem;
+    min-width: 20rem;
+    padding: 40px 20px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+}
